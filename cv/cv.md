@@ -142,10 +142,11 @@ University of Colorado Department of Molecular, Cellular, and Developmental Biol
 
 
 ### Certificates & Awards
-- Python for Data Science (General Assembly certificate course) | <time> 2016 </time>
-- Center for the American West Thompson Writing Award | <time> 2013 </time>
-- Undergraduate Research Opportunity Grant (University of Colorado) | <time> 2013 </time>
-- National Security Education Program Boren Scholarship | <time> 2011 </time>
+- Trusty Shellback | Solemn Mysteries of the Ancient Order of the Deep | <time> 2021 </time>
+- Certificate in Python for Data Science | General Assembly | <time> 2016 </time>
+- Center for the American West Thompson Writing Award | University of Colorado | <time> 2013 </time>
+- Undergraduate Research Opportunity Grant | University of Colorado | <time> 2013 </time>
+- Boren Scholarship | National Security Education Program | <time> 2011 </time>
 
 
 ```{=html}
