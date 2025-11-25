@@ -36,39 +36,39 @@ github: "https://github.com/blasks"
 
 ## Experience
 
-### Postdoctoral Researcher <time> 2025 – present </time>
+### Postdoctoral Researcher <location> (Seattle, Washington) </location> <time> 2025 – present </time>
 
-<location> Department of Oceanography, University of Washington, Seattle </location> | PI: Ginger Armbrust 
+University of Washington Department of Oceanography | PI: Ginger Armbrust 
 
-- Leading reasearch into expression of horizontally transferred genes in cyanobacteria and their role in anti-viral defense.
+- Leading reasearch on global expression of the _Prochlorococcus_ pangenome and the role of horizontally-transferred flexible genes in anti-viral defense.
 - Designing reproducible computational pipelines for analyzing genomic and metatranscriptomic data.
 
-### Graduate Research Associate <time> 2018 – 2024 </time>
+### Graduate Research Associate <location> (Seattle, Washington) </location> <time> 2018 – 2024 </time>
 
-<location> Department of Oceanography, University of Washington, Seattle </location> | PI: Ginger Armbrust
+University of Washington Department of Oceanography | PI: Ginger Armbrust
 
-- Developed sparse tensor decomposition algorithm and associated Python package for analyzing microbiome data.
+- Developed sparse tensor decomposition algorithm and Python package for analyzing microbiome data.
 - Collected in situ data and specimins as member of a 5-week open ocean expedition to the eastern Equatorial Pacific abord the RV Thomas G. Thompson. 
 - Mentored undergraduate researchers with computational and wet lab projects, including some who presented at the UW Undergraduate Research Symposium.
 
-### Research Associate III <time> 2016 – 2018 </time>
+### Research Associate III <location> (Emeryville, California) </location> <time> 2016 – 2018 </time>
 
-<location> Zymergen, Emergyville, California </location> | Supervisor: Shawn Szyjka
+Zymergen Inc. | Supervisor: Shawn Szyjka
 
 - Developed novel gene and strain engineering technologies alongside R&D team colleagues.
 - Authored three patents and one publication in coordination with colleagues across departments.
 - Promoted twice in two years from Research Associate I to Research Associate III.
 
-### Research Associate <time> 2014 – 2016 </time>
+### Research Associate <location> (Silver Spring, Maryland) </location> <time> 2014 – 2016 </time>
 
-<location> U.S. Military HIV Research Program, Silver Spring, Maryland </location> | PI: Victoria Polonis
+U.S. Military HIV Research Program | PI: Victoria Polonis
 
 - Adapted manual antibody-response assay to high-throughput automated liquid handling platform.
-- Sustained core laboratory operations, including maintaining cell lines, ordering supplies, and safeguarding samples.
+- Sustained core laboratory operations, including maintaining cell lines and safeguarding samples.
 
-### Undergraduate Researcher <time> 2013 – 2014 </time>
+### Undergraduate Researcher <location> (Boulder, Colorado) </location> <time> 2013 – 2014 </time>
 
-<location> Molecular, Cellular, and Developmental Biology, University of Colorado, Boulder </location> | PI: Shelley Copley
+University of Colorado Department of Molecular, Cellular, and Developmental Biology | PI: Shelley Copley
 
 - Cloned library of _E. coli_ mutant strains used to investigate directed evlolution of a key metabolic pathway.
 - Assisted in the development of a genome engineering procedure that resulted in publication.
@@ -77,17 +77,16 @@ github: "https://github.com/blasks"
 
 ## Education
 
-### University of Washington | <location> Seattle, Washington </location> <time> 2018 – 2024 </time>
+### University of Washington <location> (Seattle, Washington) </location> <time> 2018 – 2024 </time>
 
 - Ph.D. in Molecular Engineering and Sciences | Certificate in Data Science
 - Dissertation: "Inference of In Situ Microbial Physiologies via Sparse Tensor Decomposition of Metatranscriptomes"
-- Committee: E. Virginia Armbrust (Oceanography), Zaid Harchaoui (Statistics), Vaughn Iverson (Oceanography), William Stafford Noble (Genome Sciences), Mari K. H. Winkler (Civil and Environmental Engineering) 
+- Committee: E. Virginia Armbrust (Oceanography), Zaid Harchaoui (Statistics), Vaughn Iverson (Oceanography), William Noble (Genome Sciences), Mari Winkler (Civil and Environmental Engineering) 
 
-### University of Colorado | <location> Boulder, Colorado </location> <time> 2010 – 2014 </time>
+### University of Colorado <location> (Boulder, Colorado) </location> <time> 2010 – 2014 </time>
 
 - B.A. in Molecular, Cellular, and Developmental Biology | B.A. in Neuroscience | Certificate in Middle Eastern and Islamic Studies
 - Studied abroad at the American University in Cairo, Egypt (2012)
-
 
 
 
@@ -117,33 +116,37 @@ github: "https://github.com/blasks"
 
 ### Software
 
-- [Barnacle](https://barnacle-py.readthedocs.io/): A Python package for sparse tensor decomposition. - [barnacle-boilerplate](https://github.com/blasks/barnacle-boilerplate): A quick-start guide to using Barnacle with Jupyter notebooks.
+- [Barnacle](https://barnacle-py.readthedocs.io/): A Python package for sparse tensor decomposition.
+- [barnacle-boilerplate](https://github.com/blasks/barnacle-boilerplate): A quick-start guide to using Barnacle with Jupyter notebooks.
 - [ProPanEx](https://github.com/blasks/pro-pangenome-expression): Pipelines and scripts for analyzing global expression of the _Prochlorococcus_ pangenome.
 
 
 
 ## Mentorship
 
-### Undergraduate Researchers | <location> University of Washington, Seattle </location>
+### Undergraduate Researchers <location> (University of Washington, Seattle) </location>
+
 - Jonah Valenti (Oceanography, Biology)  <time> 2022 – 2024 </time>
 - Meena Shanmugam (Microbiology) <time> 2022 – 2023 </time>
 - Dhruvi Joshi (Applied Mathematics, Bioengineering) <time> 2023 – 2024 </time>
 
 
 
-## Conferences
-Poster | 33rd Conference on Intelligent Systems for Molecular Biology (ISMB) | <location> Liverpool, United Kingdom </location> <time> 2025 </time>
-Talk | 19th International Symposium on Microbial Ecology (ISME) | <location> Cape Town, South Africa </location> <time> 2024 </time>
-Poster | 31st Conference on Intelligent Systems for Molecular Biology (ISMB) | <location> Lyon, France </location> <time> 2023 </time>
-Poster | 21st Conference on Scientific Computing with Python (SciPy) | <location> Austin, Texas </location> <time> 2023 </time>
+## Achievements
+
+### Conferences
+- 33rd Conference on Intelligent Systems for Molecular Biology (ISMB) | Poster | <location> Liverpool </location> | <time> 2025 </time>
+- 19th International Symposium on Microbial Ecology (ISME) | Talk | <location> Cape Town </location> | <time> 2024 </time>
+- 31st Conference on Intelligent Systems for Molecular Biology (ISMB) | Poster | <location> Lyon </location> | <time> 2023 </time>
+- 21st Conference on Scientific Computing with Python (SciPy) | Poster |<location> Austin </location> | <time> 2023 </time>
 
 
+### Certificates & Awards
+- Python for Data Science (General Assembly certificate course) | <time> 2016 </time>
+- Center for the American West Thompson Writing Award | <time> 2013 </time>
+- Undergraduate Research Opportunity Grant (University of Colorado) | <time> 2013 </time>
+- National Security Education Program Boren Scholarship | <time> 2011 </time>
 
-## Awards
-
-
-
-## Skills
 
 ```{=html}
 </main>
