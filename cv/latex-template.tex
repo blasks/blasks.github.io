@@ -1,0 +1,102 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\IfFileExists{titlesec.sty}{\usepackage{titlesec}}{}
+\newif\ifenums
+\IfFileExists{enumitem.sty}{\usepackage{enumitem}\enumstrue}{\enumsfalse}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Colors (PDF: all black)
+\definecolor{accent}{HTML}{000000}
+\definecolor{secondary}{HTML}{000000}
+\definecolor{muted}{HTML}{000000}
+\definecolor{textcolor}{HTML}{000000}
+\definecolor{border}{HTML}{000000}
+
+% Fonts (fallback if preferred fonts missing)
+% Font fallbacks
+\IfFontExistsTF{Helvetica Neue}{
+  \setmainfont{Helvetica Neue}
+  \newfontfamily\headingfont{Helvetica Neue}[BoldFont={* Bold}]
+}{
+  \IfFontExistsTF{TeX Gyre Heros}{
+    \setmainfont{TeX Gyre Heros}
+    \newfontfamily\headingfont{TeX Gyre Heros}[Weight=600]
+  }{
+    \IfFontExistsTF{Arial}{
+      \setmainfont{Arial}
+      \newfontfamily\headingfont{Arial}[Scale=1.05]
+    }{
+      \setmainfont{Times New Roman}
+      \newfontfamily\headingfont{Times New Roman}[Scale=1.05]
+    }
+  }
+}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\ifenums
+  \setlist[itemize]{topsep=1pt,itemsep=2pt,leftmargin=12pt}
+\fi
+
+% Remove section numbering
+\setcounter{secnumdepth}{-1}
+
+% Link styling
+\hypersetup{
+    colorlinks=true,
+    urlcolor=accent,
+    linkcolor=accent,
+    citecolor=accent,
+    pdfborder={0 0 0}
+}
+
+% Section formats (only if titlesec is available)
+\ifdefined\titleformat
+  \titleformat{\section}
+    {\headingfont\large\color{accent}}
+    {}
+    {0pt}
+    {\underline{\MakeUppercase{#1}}}
+  \titlespacing*{\section}{0pt}{8pt}{6pt}
+
+  \titleformat{\subsection}
+    {\headingfont\normalsize\color{textcolor}}
+    {}
+    {0pt}
+    {\underline{#1}}
+  \titlespacing*{\subsection}{0pt}{6pt}{4pt}
+
+  \titleformat{\subsubsection}
+    {\headingfont\normalsize\color{textcolor}}
+    {}
+    {0pt}
+    {}
+  \titlespacing*{\subsubsection}{0pt}{4pt}{2pt}
+\else
+  % Fallback when titlesec is unavailable: add a rule after section/subsection
+  \let\oldsection\section
+  \renewcommand{\section}[1]{%
+    \oldsection{\underline{#1}}%
+  }
+  \let\oldsubsection\subsection
+  \renewcommand{\subsection}[1]{%
+    \oldsubsection{\underline{#1}}%
+  }
+\fi
+
+\renewcommand{\labelitemi}{\color{accent}\textbullet}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+\pagestyle{empty}
+\raggedright
+\color{textcolor}
+
+$body$
+
+\end{document}
