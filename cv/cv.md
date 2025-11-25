@@ -1,25 +1,47 @@
 ---
 title: "Stephen Blaskowski – CV"
 author: "Stephen Blaskowski"
-date: "June 10, 2025"
+date: "November 24, 2025"
+tagline: "Computational biologist working at the intersection of genomics, microbiology, and statistics."
+location: "Seattle, WA"
+email: "stephen.blaskowski@gmail.com"
+github: "https://github.com/blasks"
 ---
 
-<span class="name">Stephen Blaskowski</span>
+```{=latex}
+\begin{center}
+{\headingfont\huge Stephen Blaskowski}\\[10pt]
+{\large $tagline$}\\[6pt]
+{\normalsize $location$ \quad $\diamond$ \quad \href{mailto:$email$}{$email$} \quad $\diamond$ \quad \href{$github$}{github.com/blasks}}
+\end{center}
+\vspace{2pt}
+\noindent\color{accent}\rule{\linewidth}{0.8pt}
+```
 
-<span class="info">Computational biologist working at the intersection of genomics, microbiology, and statistics.</span>
-
-<span class="info">Seattle, WA | [stephen.blaskowski@gmail.com](mailto:stephen.blaskowski@gmail.com) | [github.com/blasks](https://github.com/blasks)</span>
-
+```{=html}
+<main class="page">
+  <header class="hero">
+    <p class="eyebrow">Curriculum Vitae</p>
+    <h1 class="headline">Stephen Blaskowski</h1>
+    <p class="tagline">$tagline$</p>
+    <div class="contact-row">
+      <span>$location$</span>
+      <a href="mailto:$email$">$email$</a>
+      <a href="$github$">$github$</a>
+      <a class="button" href="/cv/cv.pdf">Download PDF</a>
+    </div>
+  </header>
+```
 
 ## Education
 
-### University of Washington | <location> Seattle, WA, USA </location> <time> 2018 – 2024 </time>
+### University of Washington | <location> Seattle, Washington </location> <time> 2018 – 2024 </time>
 
 - Ph.D in Molecular Engineering and Sciences | Certificate in Data Science
 - Dissertation: "Inference of In Situ Microbial Physiologies via Sparse Tensor Decomposition of Metatranscriptomes"
 - Committee: E. Virginia Armbrust (Oceanography), Zaid Harchaoui (Statistics), Vaughn Iverson (Oceanography), William Stafford Noble (Genome Sciences), Mari K. H. Winkler (Civil and Environmental Engineering) 
 
-### University of Colorado | <location> Boulder, CO, USA </location> <time> 2010 – 2014 </time>
+### University of Colorado | <location> Boulder, Colorado </location> <time> 2010 – 2014 </time>
 
 - B.A. in Molecular, Cellular, and Developmental Biology | B.A. in Neuroscience | Certificate in Middle Eastern and Islamic Studies
 - Exchange student for 9 months at the American University in Cairo
@@ -115,3 +137,7 @@ date: "June 10, 2025"
 
 
 ## Skills
+
+```{=html}
+</main>
+```

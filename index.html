@@ -1,1 +1,74 @@
-Personal website of Stephen Blaskowski
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="refresh" content="0; url=cv/cv.html" />
+  <title>Stephen Blaskowski – CV</title>
+  <link rel="canonical" href="/cv/cv.html" />
+  <link rel="stylesheet" href="cv/cv.css" />
+  <style>
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      background: radial-gradient(circle at 12% 20%, rgba(13, 79, 139, 0.08), transparent 25%), radial-gradient(circle at 88% 10%, rgba(13, 79, 139, 0.08), transparent 30%), linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+      color: #0f172a;
+    }
+
+    .redirect-card {
+      text-align: center;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 32px 36px;
+      max-width: 640px;
+      width: min(92vw, 640px);
+      box-shadow: 0 22px 60px rgba(15, 23, 42, 0.08);
+    }
+
+    .redirect-card .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: #0d4f8b;
+      margin: 0 0 8px;
+    }
+
+    .redirect-card .headline {
+      margin: 0 0 6px;
+      font-size: clamp(2rem, 3vw, 2.4rem);
+      letter-spacing: -0.02em;
+    }
+
+    .redirect-card .tagline {
+      margin: 0 0 16px;
+      color: #4b5563;
+    }
+
+    .redirect-card .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <main class="redirect-card">
+    <p class="eyebrow">Redirecting</p>
+    <h1 class="headline">Stephen Blaskowski</h1>
+    <p class="tagline">Heading to the latest CV. If you aren&apos;t redirected automatically, use the links below.</p>
+    <div class="actions">
+      <a class="button" href="cv/cv.html">View Online</a>
+      <a class="button" href="cv/cv.pdf">Download PDF</a>
+    </div>
+  </main>
+</body>
+</html>

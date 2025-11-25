@@ -56,19 +56,32 @@
 }
 
 % Section formats (only if titlesec is available)
+\newif\iffirstsection \firstsectiontrue
+\newif\iffirstsubsection \firstsubsectiontrue
+
 \ifdefined\titleformat
   \titleformat{\section}
     {\headingfont\large\color{accent}}
     {}
     {0pt}
-    {\underline{\MakeUppercase{#1}}}
+    {%
+      \iffirstsection\global\firstsectionfalse\else
+        \noindent\makebox[\linewidth][c]{\ensuremath{\diamond\ \diamond\ \diamond}}\\[2pt]%
+      \fi
+      \underline{\MakeUppercase{#1}}%
+    }
   \titlespacing*{\section}{0pt}{8pt}{6pt}
 
   \titleformat{\subsection}
     {\headingfont\normalsize\color{textcolor}}
     {}
     {0pt}
-    {\underline{#1}}
+    {%
+      \iffirstsubsection\global\firstsubsectionfalse\else
+        \noindent\makebox[\linewidth][c]{\ensuremath{\diamond\ \diamond\ \diamond}}\\[2pt]%
+      \fi
+      \underline{#1}%
+    }
   \titlespacing*{\subsection}{0pt}{6pt}{4pt}
 
   \titleformat{\subsubsection}
@@ -81,11 +94,21 @@
   % Fallback when titlesec is unavailable: add a rule after section/subsection
   \let\oldsection\section
   \renewcommand{\section}[1]{%
-    \oldsection{\underline{#1}}%
+    \oldsection{%
+      \iffirstsection\global\firstsectionfalse\else
+        \noindent\makebox[\linewidth][c]{\ensuremath{\diamond\ \diamond\ \diamond}}\\[2pt]%
+      \fi
+      \underline{#1}%
+    }%
   }
   \let\oldsubsection\subsection
   \renewcommand{\subsection}[1]{%
-    \oldsubsection{\underline{#1}}%
+    \oldsubsection{%
+      \iffirstsubsection\global\firstsubsectionfalse\else
+        \noindent\makebox[\linewidth][c]{\ensuremath{\diamond\ \diamond\ \diamond}}\\[2pt]%
+      \fi
+      \underline{#1}%
+    }%
   }
 \fi
 
