@@ -2,7 +2,7 @@
 title: "Stephen Blaskowski – CV"
 author: "Stephen Blaskowski"
 date: "November 24, 2025"
-tagline: "Computational biologist working at the intersection of genomics, microbiology, and statistics."
+tagline: "Computational biologist exploring the intersection of genomics, microbiology, and statistics."
 location: "Seattle, WA"
 email: "stephen.blaskowski@gmail.com"
 github: "https://github.com/blasks"
@@ -33,20 +33,6 @@ github: "https://github.com/blasks"
   </header>
 ```
 
-## Education
-
-### University of Washington | <location> Seattle, Washington </location> <time> 2018 – 2024 </time>
-
-- Ph.D in Molecular Engineering and Sciences | Certificate in Data Science
-- Dissertation: "Inference of In Situ Microbial Physiologies via Sparse Tensor Decomposition of Metatranscriptomes"
-- Committee: E. Virginia Armbrust (Oceanography), Zaid Harchaoui (Statistics), Vaughn Iverson (Oceanography), William Stafford Noble (Genome Sciences), Mari K. H. Winkler (Civil and Environmental Engineering) 
-
-### University of Colorado | <location> Boulder, Colorado </location> <time> 2010 – 2014 </time>
-
-- B.A. in Molecular, Cellular, and Developmental Biology | B.A. in Neuroscience | Certificate in Middle Eastern and Islamic Studies
-- Exchange student for 9 months at the American University in Cairo
-
-
 
 ## Experience
 
@@ -55,22 +41,22 @@ github: "https://github.com/blasks"
 <location> Department of Oceanography, University of Washington, Seattle </location> | PI: Ginger Armbrust 
 
 - Leading reasearch into expression of horizontally transferred genes in cyanobacteria and their role in anti-viral defense.
-- Designing computational pipelines that use genomic and metatranscriptomic data to test various hypotheses.
+- Designing reproducible computational pipelines for analyzing genomic and metatranscriptomic data.
 
 ### Graduate Research Associate <time> 2018 – 2024 </time>
 
 <location> Department of Oceanography, University of Washington, Seattle </location> | PI: Ginger Armbrust
 
 - Developed sparse tensor decomposition algorithm and associated Python package for analyzing microbiome data.
-- Collected in situ marine data and specimins as member of 5-week open ocean expedition to eastern Equatorial Pacific abord the RV Thomas G. Thompson. 
-- Mentored undergraduate researchers with computational and wet lab projects; some presented at Undergraduate Research Symposium.
+- Collected in situ data and specimins as member of a 5-week open ocean expedition to the eastern Equatorial Pacific abord the RV Thomas G. Thompson. 
+- Mentored undergraduate researchers with computational and wet lab projects, including some who presented at the UW Undergraduate Research Symposium.
 
 ### Research Associate III <time> 2016 – 2018 </time>
 
 <location> Zymergen, Emergyville, California </location> | Supervisor: Shawn Szyjka
 
 - Developed novel gene and strain engineering technologies alongside R&D team colleagues.
-- Coordinated across departments to complete project reports and author publications and patents.
+- Authored three patents and one publication in coordination with colleagues across departments.
 - Promoted twice in two years from Research Associate I to Research Associate III.
 
 ### Research Associate <time> 2014 – 2016 </time>
@@ -85,7 +71,23 @@ github: "https://github.com/blasks"
 <location> Molecular, Cellular, and Developmental Biology, University of Colorado, Boulder </location> | PI: Shelley Copley
 
 - Cloned library of _E. coli_ mutant strains used to investigate directed evlolution of a key metabolic pathway.
-- Assisted in the development of a genome engineering procedure that was published in a peer-reviewed manuscript.
+- Assisted in the development of a genome engineering procedure that resulted in publication.
+
+
+
+## Education
+
+### University of Washington | <location> Seattle, Washington </location> <time> 2018 – 2024 </time>
+
+- Ph.D. in Molecular Engineering and Sciences | Certificate in Data Science
+- Dissertation: "Inference of In Situ Microbial Physiologies via Sparse Tensor Decomposition of Metatranscriptomes"
+- Committee: E. Virginia Armbrust (Oceanography), Zaid Harchaoui (Statistics), Vaughn Iverson (Oceanography), William Stafford Noble (Genome Sciences), Mari K. H. Winkler (Civil and Environmental Engineering) 
+
+### University of Colorado | <location> Boulder, Colorado </location> <time> 2010 – 2014 </time>
+
+- B.A. in Molecular, Cellular, and Developmental Biology | B.A. in Neuroscience | Certificate in Middle Eastern and Islamic Studies
+- Studied abroad at the American University in Cairo, Egypt (2012)
+
 
 
 
@@ -115,7 +117,8 @@ github: "https://github.com/blasks"
 
 ### Software
 
-- [Barnacle](https://github.com/blasks/barnacle): A Python package for sparse tensor decomposition. Role: Creator. [https://barnacle-py.readthedocs.io/](https://barnacle-py.readthedocs.io/)
+- [Barnacle](https://barnacle-py.readthedocs.io/): A Python package for sparse tensor decomposition. - [barnacle-boilerplate](https://github.com/blasks/barnacle-boilerplate): A quick-start guide to using Barnacle with Jupyter notebooks.
+- [ProPanEx](https://github.com/blasks/pro-pangenome-expression): Pipelines and scripts for analyzing global expression of the _Prochlorococcus_ pangenome.
 
 
 
@@ -129,6 +132,10 @@ github: "https://github.com/blasks"
 
 
 ## Conferences
+Poster | 33rd Conference on Intelligent Systems for Molecular Biology (ISMB) | <location> Liverpool, United Kingdom </location> <time> 2025 </time>
+Talk | 19th International Symposium on Microbial Ecology (ISME) | <location> Cape Town, South Africa </location> <time> 2024 </time>
+Poster | 31st Conference on Intelligent Systems for Molecular Biology (ISMB) | <location> Lyon, France </location> <time> 2023 </time>
+Poster | 21st Conference on Scientific Computing with Python (SciPy) | <location> Austin, Texas </location> <time> 2023 </time>
 
 
 
