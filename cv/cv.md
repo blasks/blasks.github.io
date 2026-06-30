@@ -94,6 +94,8 @@ University of Colorado Department of Molecular, Cellular, and Developmental Biol
 
 ### Peer-Reviewed
 
+- **S. Blaskowski**, L. G. Christie, Y. Raut, J. Bien, E. V. Armbrust. "Estimating gene prevalence with incomplete genomes: application to Prochlorococcus pangenome." (_in preparation_) 
+
 - **S. Blaskowski**, M. Roald, P. M. Berube, R. Braakman, E. V. Armbrust. "Simultaneous acclimation to nitrogen and iron scarcity in open ocean cyanobacteria revealed by sparse tensor decomposition of metatranscriptomes." *Science Advances* (2025) [10.1126/sciadv.adr4310](https://doi.org/10.1126/sciadv.adr4310)
 
 - R. D. Groussman, **S. Blaskowski**, S. N. Coesel, E. V. Armbrust. "MarFERReT, an open-source, version-controlled reference library of marine microbial eukaryote functional genes." *Scientific Data* (2023). [10.1038/s41597-023-02842-4](https://doi.org/10.1038/s41597-023-02842-4)
