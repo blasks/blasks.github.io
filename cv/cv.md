@@ -27,7 +27,6 @@ github: "https://github.com/blasks"
     <div class="contact-row">
       <span>$location$</span>
       <a href="mailto:$email$">$email$</a>
-      <a href="$github$">$github$</a>
       <a class="button" href="/cv/cv.pdf">Download PDF</a>
     </div>
   </header>
@@ -148,6 +147,7 @@ University of Colorado Department of Molecular, Cellular, and Developmental Biol
 ### Software
 
 - [Barnacle](https://barnacle-py.readthedocs.io/): A Python package for sparse tensor decomposition, adopted by researchers in several labs for transcriptomic, metagenomic, and metabolomic data.
+- [gene-prevalence](https://github.com/blasks/gene-prevalence): A Python package for maximum-likelihood estimation of gene-family prevalence, with confidence intervals, from incomplete genomes.
 - [barnacle-boilerplate](https://github.com/blasks/barnacle-boilerplate): A quick-start guide to using Barnacle with Jupyter notebooks.
 - [ProPanEx](https://github.com/blasks/pro-pangenome-expression): Containerized genomics and transcriptomics workflows for analyzing global expression of the _Prochlorococcus_ pangenome.
 
