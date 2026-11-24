@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Stephen Blaskowski" />
-  <meta name="dcterms.date" content="2026-11-15" />
+  <meta name="dcterms.date" content="2026-11-24" />
   <title>Stephen Blaskowski – CV</title>
   <style>
     /* Default styles provided by pandoc.
@@ -33,13 +33,13 @@
 <header id="title-block-header">
 <h1 class="title">Stephen Blaskowski – CV</h1>
 <p class="author">Stephen Blaskowski</p>
-<p class="date">November 15, 2026</p>
+<p class="date">November 24, 2026</p>
 </header>
 <main class="page">
   <header class="hero">
     <p class="eyebrow">Curriculum Vitae</p>
     <h1 class="headline">Stephen Blaskowski</h1>
-    <p class="tagline">Computational biologist exploring the intersection of genomics, microbiology, and statistics.</p>
+    <p class="tagline">Computational biologist developing statistical and machine learning methods that make meaning out of complex biological data.</p>
     <div class="contact-row">
       <span>Seattle, WA</span>
       <a href="mailto:stephen.blaskowski@gmail.com">stephen.blaskowski@gmail.com</a>
@@ -47,51 +47,94 @@
       <a class="button" href="/cv/cv.pdf">Download PDF</a>
     </div>
   </header>
+<h2 id="profile">Profile</h2>
+<p>Computational biologist with 12 years of R&amp;D experience across
+industry and academia, developing novel statistical and algorithmic
+methods for complex biological data. Leads interdisciplinary research
+from identifying methodological gaps through mathematical development,
+implementation, rigorous validation, and scientific discovery. Combines
+quantitative expertise and experimental perspective with a track record
+of building productive collaborations and delivering open-source tools,
+publications, and patents.</p>
 <h2 id="experience">Experience</h2>
 <h3
 id="postdoctoral-researcher-seattle-washington-2025-present">Postdoctoral
 Researcher <location> (Seattle, Washington) </location> <time> 2025 –
 present </time></h3>
-<p>University of Washington Department of Oceanography | PI: Ginger
+<p>University of Washington School of Oceanography | PI: Ginger
 Armbrust</p>
 <ul>
-<li>Developed a maximum-likelihood framework for estimating gene
-prevalence from incomplete genomes, extending prevalence estimates to
-52,500 <em>Prochlorococcus</em> gene families, more than four times the
-number possible with complete genomes alone.</li>
-<li>Leading research on global expression of the
-<em>Prochlorococcus</em> pangenome and the role of
-horizontally-transferred flexible genes in anti-viral defense.</li>
+<li>Conceived and led a maximum-likelihood method for estimating gene
+prevalence that models genome incompleteness rather than discarding
+data. Analyzed 1,099 <em>Prochlorococcus</em> genomes (94% incomplete)
+and estimated prevalence with confidence intervals for 52,500 gene
+families, more than four times as many as possible with complete genomes
+alone.</li>
+<li>Built a cross-institutional collaboration with statisticians at the
+University of Southern California; formulated the probabilistic
+observation model, implemented and validated the estimator in Python,
+and led the computational experiments and interpretation.</li>
+<li>Built a containerized Snakemake and QIIME 2 pipeline to classify
+<em>Prochlorococcus</em> 16S rRNA amplicon (eDNA) sequence variants from
+a global metabarcoding database to clade, providing the global clade
+composition behind the prevalence estimates.</li>
+<li>Leading a global study of gene expression across 1,106
+<em>Prochlorococcus</em> genomes and 187 ocean metatranscriptomes,
+integrating evolutionary and sequencing evidence to investigate
+horizontally transferred flexible genes and anti-viral defense.</li>
 <li>Building reproducible, containerized Snakemake pipelines (Docker,
-Apptainer) for analyzing genomic and metatranscriptomic data.</li>
+Apptainer) and a queryable project database (DuckDB) for analyzing
+genomic and metatranscriptomic data.</li>
 </ul>
 <h3
 id="graduate-research-associate-seattle-washington-2018-2024">Graduate
 Research Associate <location> (Seattle, Washington) </location> <time>
 2018 – 2024 </time></h3>
-<p>University of Washington Department of Oceanography | PI: Ginger
+<p>University of Washington School of Oceanography | PI: Ginger
 Armbrust</p>
 <ul>
-<li>Developed Barnacle, a sparse tensor decomposition algorithm and
-open-source Python package, and applied it to ocean metatranscriptomes
-to reveal simultaneous acclimation to nitrogen and iron scarcity in open
-ocean cyanobacteria (<em>Science Advances</em>, 2025).</li>
-<li>Collected in situ data and specimens as a member of a 5-week open
-ocean expedition to the eastern Equatorial Pacific aboard the RV Thomas
-G. Thompson.</li>
+<li>Conceived and developed Barnacle, a sparse tensor decomposition
+algorithm and open-source Python package that identifies interpretable
+patterns in high-dimensional sequencing data. Recovered ~25 robust
+expression programs across 222 ocean metatranscriptomes, revealing
+simultaneous acclimation to nitrogen and iron scarcity in open ocean
+cyanobacteria (<em>Science Advances</em>, 2025).</li>
+<li>Designed a validation framework using simulated ground truth,
+cross-validation, and bootstrap stability analysis to establish which
+inferred gene-expression patterns were reliable enough for biological
+interpretation.</li>
+<li>Released Barnacle as a documented open-source package, co-developed
+with an international collaborator and adopted by researchers in several
+labs for transcriptomic, metagenomic, and metabolomic data.</li>
+<li>Recruited experts in tensor methods (Oslo) and biological
+interpretation (MIT) and led the collaborations through
+publication.</li>
+<li>Planned and executed shipboard sampling and experiments on a 5-week
+open ocean expedition to the eastern Equatorial Pacific aboard the RV
+Thomas G. Thompson.</li>
 <li>Mentored undergraduate researchers with computational and wet lab
-projects, including some who presented at the UW Undergraduate Research
-Symposium.</li>
+projects, including two co-authors on ongoing work and some who
+presented at the UW Undergraduate Research Symposium.</li>
 </ul>
-<h3 id="research-associate-iii-emeryville-california-2016-2018">Research
-Associate III <location> (Emeryville, California) </location> <time>
+<h3
+id="research-associate-iiii-emeryville-california-2016-2018">Research
+Associate I–III <location> (Emeryville, California) </location> <time>
 2016 – 2018 </time></h3>
 <p>Zymergen Inc. | Supervisor: Shawn Szyjka</p>
 <ul>
-<li>Developed novel gene and strain engineering technologies alongside
-R&amp;D team colleagues.</li>
-<li>Authored three patents and one publication in coordination with
-colleagues across departments.</li>
+<li>Collaborated with a ~20-person R&amp;D team to develop novel
+strain-engineering and CRISPR technologies for industrial microbes.</li>
+<li>Proposed and led a cross-functional power analysis for a new CRISPRi
+screening platform, linking detectable hit rates, experimental scale,
+and cost. Presented the results to the R&amp;D director and a
+co-founder; the analysis set the validation budget, and subsequent
+experiments informed the decision not to scale the platform.</li>
+<li>Co-led development of CRISPR genome editing in <em>Corynebacterium
+glutamicum</em> (peer-reviewed methods paper, 2019); wrote Python code
+for shotgun-sequencing analysis and guide-RNA design and programmed
+automated liquid handlers.</li>
+<li>Contributed to three microbial genome-editing patents, including two
+issued U.S. patents.</li>
 <li>Promoted twice in two years from Research Associate I to Research
 Associate III.</li>
 </ul>
@@ -100,8 +143,9 @@ Associate <location> (Silver Spring, Maryland) </location> <time> 2014 –
 2016 </time></h3>
 <p>U.S. Military HIV Research Program | PI: Victoria Polonis</p>
 <ul>
-<li>Adapted manual antibody-response assay to high-throughput automated
-liquid handling platform.</li>
+<li>Adapted a manual antibody-response assay to a high-throughput
+automated liquid-handling platform, increasing experimental throughput
+by an estimated order of magnitude.</li>
 <li>Sustained core laboratory operations, including maintaining cell
 lines and safeguarding samples.</li>
 </ul>
@@ -145,18 +189,25 @@ Neuroscience | Certificate in Middle Eastern and Islamic Studies</li>
 </ul>
 <h2 id="skills">Skills</h2>
 <ul>
-<li><strong>Programming:</strong> Python (NumPy, SciPy, pandas,
-scikit-learn, TensorLy, Matplotlib, seaborn, Plotly), R, Bash</li>
-<li><strong>Reproducible research:</strong> Snakemake, Docker,
-Apptainer/Singularity, Git, Poetry, pytest, Sphinx, Jupyter</li>
-<li><strong>Statistics &amp; machine learning:</strong> sparse tensor
-decomposition, maximum-likelihood estimation, unsupervised clustering,
-high-dimensional data analysis</li>
-<li><strong>Bioinformatics:</strong> metatranscriptomics, comparative
-genomics, pangenome analysis, RNA-seq normalization</li>
-<li><strong>Laboratory:</strong> CRISPR genome editing, molecular
-cloning, microbial strain engineering, cell culture, automated liquid
-handling, oceanographic field sampling</li>
+<li><strong>Modeling &amp; evaluation:</strong> maximum-likelihood
+estimation, uncertainty quantification, simulated-ground-truth
+benchmarking, cross-validation, bootstrapping, sparse tensor
+decomposition, unsupervised learning, high-dimensional data
+analysis</li>
+<li><strong>Scientific computing:</strong> Python (NumPy, SciPy, pandas,
+scikit-learn, TensorLy, Matplotlib, seaborn, Plotly), R, SQL (DuckDB),
+Go, Bash; reusable Python packages, Git, Poetry, pytest, Sphinx,
+Jupyter</li>
+<li><strong>Reproducible workflows:</strong> Snakemake, Docker,
+Apptainer/Singularity; AI-assisted development (Claude Code, Codex)</li>
+<li><strong>Biological data:</strong> genomes, metagenomes,
+metatranscriptomes, RNA-seq, 16S amplicon eDNA (QIIME 2); comparative
+genomics and pangenome analysis (PPanGGOLiN, MMseqs2, DIAMOND,
+salmon)</li>
+<li><strong>Laboratory:</strong> CRISPR genome editing, high-throughput
+screening, molecular cloning, microbial strain engineering,
+antibody-response assays, cell culture, laboratory automation,
+oceanographic field sampling</li>
 </ul>
 <h2 id="publications">Publications</h2>
 <h3 id="preprints-in-preparation">Preprints &amp; In Preparation</h3>
@@ -226,14 +277,15 @@ November 19, 2020.</p></li>
 <h3 id="software">Software</h3>
 <ul>
 <li><a href="https://barnacle-py.readthedocs.io/">Barnacle</a>: A Python
-package for sparse tensor decomposition.</li>
+package for sparse tensor decomposition, adopted by researchers in
+several labs for transcriptomic, metagenomic, and metabolomic data.</li>
 <li><a
 href="https://github.com/blasks/barnacle-boilerplate">barnacle-boilerplate</a>:
 A quick-start guide to using Barnacle with Jupyter notebooks.</li>
 <li><a
 href="https://github.com/blasks/pro-pangenome-expression">ProPanEx</a>:
-Pipelines and scripts for analyzing global expression of the
-<em>Prochlorococcus</em> pangenome.</li>
+Containerized genomics and transcriptomics workflows for analyzing
+global expression of the <em>Prochlorococcus</em> pangenome.</li>
 </ul>
 <h2 id="collaborations">Collaborations</h2>
 <h3
@@ -268,6 +320,12 @@ manuscript <time> 2022 – 2024 </time></li>
 <li>Meena Shanmugam (Microbiology) <time> 2022 – 2023 </time></li>
 <li>Dhruvi Joshi (Applied Mathematics, Bioengineering) | Co-author,
 flexome manuscript <time> 2023 – 2024 </time></li>
+</ul>
+<h3 id="high-school-researcher-seattle-area">High School Researcher
+<location> (Seattle area) </location></h3>
+<ul>
+<li>Science-fair project: CRISPR-Cas12a paper biosensor for cyanotoxin
+detection <time> 2026 – 2027 </time></li>
 </ul>
 <h2 id="presentations">Presentations</h2>
 <ul>

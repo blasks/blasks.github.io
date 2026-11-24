@@ -1,8 +1,8 @@
 ---
 title: "Stephen Blaskowski – CV"
 author: "Stephen Blaskowski"
-date: "November 15, 2026"
-tagline: "Computational biologist exploring the intersection of genomics, microbiology, and statistics."
+date: "November 24, 2026"
+tagline: "Computational biologist developing statistical and machine learning methods that make meaning out of complex biological data."
 location: "Seattle, WA"
 email: "stephen.blaskowski@gmail.com"
 github: "https://github.com/blasks"
@@ -34,37 +34,50 @@ github: "https://github.com/blasks"
 ```
 
 
+## Profile
+
+Computational biologist with 12 years of R&D experience across industry and academia, developing novel statistical and algorithmic methods for complex biological data. Leads interdisciplinary research from identifying methodological gaps through mathematical development, implementation, rigorous validation, and scientific discovery. Combines quantitative expertise and experimental perspective with a track record of building productive collaborations and delivering open-source tools, publications, and patents.
+
+
+
 ## Experience
 
 ### Postdoctoral Researcher <location> (Seattle, Washington) </location> <time> 2025 – present </time>
 
-University of Washington Department of Oceanography | PI: Ginger Armbrust 
+University of Washington School of Oceanography | PI: Ginger Armbrust 
 
-- Developed a maximum-likelihood framework for estimating gene prevalence from incomplete genomes, extending prevalence estimates to 52,500 _Prochlorococcus_ gene families, more than four times the number possible with complete genomes alone.
-- Leading research on global expression of the _Prochlorococcus_ pangenome and the role of horizontally-transferred flexible genes in anti-viral defense.
-- Building reproducible, containerized Snakemake pipelines (Docker, Apptainer) for analyzing genomic and metatranscriptomic data.
+- Conceived and led a maximum-likelihood method for estimating gene prevalence that models genome incompleteness rather than discarding data. Analyzed 1,099 _Prochlorococcus_ genomes (94% incomplete) and estimated prevalence with confidence intervals for 52,500 gene families, more than four times as many as possible with complete genomes alone.
+- Built a cross-institutional collaboration with statisticians at the University of Southern California; formulated the probabilistic observation model, implemented and validated the estimator in Python, and led the computational experiments and interpretation.
+- Built a containerized Snakemake and QIIME 2 pipeline to classify _Prochlorococcus_ 16S rRNA amplicon (eDNA) sequence variants from a global metabarcoding database to clade, providing the global clade composition behind the prevalence estimates.
+- Leading a global study of gene expression across 1,106 _Prochlorococcus_ genomes and 187 ocean metatranscriptomes, integrating evolutionary and sequencing evidence to investigate horizontally transferred flexible genes and anti-viral defense.
+- Building reproducible, containerized Snakemake pipelines (Docker, Apptainer) and a queryable project database (DuckDB) for analyzing genomic and metatranscriptomic data.
 
 ### Graduate Research Associate <location> (Seattle, Washington) </location> <time> 2018 – 2024 </time>
 
-University of Washington Department of Oceanography | PI: Ginger Armbrust
+University of Washington School of Oceanography | PI: Ginger Armbrust
 
-- Developed Barnacle, a sparse tensor decomposition algorithm and open-source Python package, and applied it to ocean metatranscriptomes to reveal simultaneous acclimation to nitrogen and iron scarcity in open ocean cyanobacteria (_Science Advances_, 2025).
-- Collected in situ data and specimens as a member of a 5-week open ocean expedition to the eastern Equatorial Pacific aboard the RV Thomas G. Thompson.
-- Mentored undergraduate researchers with computational and wet lab projects, including some who presented at the UW Undergraduate Research Symposium.
+- Conceived and developed Barnacle, a sparse tensor decomposition algorithm and open-source Python package that identifies interpretable patterns in high-dimensional sequencing data. Recovered ~25 robust expression programs across 222 ocean metatranscriptomes, revealing simultaneous acclimation to nitrogen and iron scarcity in open ocean cyanobacteria (_Science Advances_, 2025).
+- Designed a validation framework using simulated ground truth, cross-validation, and bootstrap stability analysis to establish which inferred gene-expression patterns were reliable enough for biological interpretation.
+- Released Barnacle as a documented open-source package, co-developed with an international collaborator and adopted by researchers in several labs for transcriptomic, metagenomic, and metabolomic data.
+- Recruited experts in tensor methods (Oslo) and biological interpretation (MIT) and led the collaborations through publication.
+- Planned and executed shipboard sampling and experiments on a 5-week open ocean expedition to the eastern Equatorial Pacific aboard the RV Thomas G. Thompson.
+- Mentored undergraduate researchers with computational and wet lab projects, including two co-authors on ongoing work and some who presented at the UW Undergraduate Research Symposium.
 
-### Research Associate III <location> (Emeryville, California) </location> <time> 2016 – 2018 </time>
+### Research Associate I–III <location> (Emeryville, California) </location> <time> 2016 – 2018 </time>
 
 Zymergen Inc. | Supervisor: Shawn Szyjka
 
-- Developed novel gene and strain engineering technologies alongside R&D team colleagues.
-- Authored three patents and one publication in coordination with colleagues across departments.
+- Collaborated with a ~20-person R&D team to develop novel strain-engineering and CRISPR technologies for industrial microbes.
+- Proposed and led a cross-functional power analysis for a new CRISPRi screening platform, linking detectable hit rates, experimental scale, and cost. Presented the results to the R&D director and a co-founder; the analysis set the validation budget, and subsequent experiments informed the decision not to scale the platform.
+- Co-led development of CRISPR genome editing in _Corynebacterium glutamicum_ (peer-reviewed methods paper, 2019); wrote Python code for shotgun-sequencing analysis and guide-RNA design and programmed automated liquid handlers.
+- Contributed to three microbial genome-editing patents, including two issued U.S. patents.
 - Promoted twice in two years from Research Associate I to Research Associate III.
 
 ### Research Associate <location> (Silver Spring, Maryland) </location> <time> 2014 – 2016 </time>
 
 U.S. Military HIV Research Program | PI: Victoria Polonis
 
-- Adapted manual antibody-response assay to high-throughput automated liquid handling platform.
+- Adapted a manual antibody-response assay to a high-throughput automated liquid-handling platform, increasing experimental throughput by an estimated order of magnitude.
 - Sustained core laboratory operations, including maintaining cell lines and safeguarding samples.
 
 ### Undergraduate Researcher <location> (Boulder, Colorado) </location> <time> 2013 – 2014 </time>
@@ -93,11 +106,11 @@ University of Colorado Department of Molecular, Cellular, and Developmental Biol
 
 ## Skills
 
-- **Programming:** Python (NumPy, SciPy, pandas, scikit-learn, TensorLy, Matplotlib, seaborn, Plotly), R, Bash
-- **Reproducible research:** Snakemake, Docker, Apptainer/Singularity, Git, Poetry, pytest, Sphinx, Jupyter
-- **Statistics & machine learning:** sparse tensor decomposition, maximum-likelihood estimation, unsupervised clustering, high-dimensional data analysis
-- **Bioinformatics:** metatranscriptomics, comparative genomics, pangenome analysis, RNA-seq normalization
-- **Laboratory:** CRISPR genome editing, molecular cloning, microbial strain engineering, cell culture, automated liquid handling, oceanographic field sampling
+- **Modeling & evaluation:** maximum-likelihood estimation, uncertainty quantification, simulated-ground-truth benchmarking, cross-validation, bootstrapping, sparse tensor decomposition, unsupervised learning, high-dimensional data analysis
+- **Scientific computing:** Python (NumPy, SciPy, pandas, scikit-learn, TensorLy, Matplotlib, seaborn, Plotly), R, SQL (DuckDB), Go, Bash; reusable Python packages, Git, Poetry, pytest, Sphinx, Jupyter
+- **Reproducible workflows:** Snakemake, Docker, Apptainer/Singularity; AI-assisted development (Claude Code, Codex)
+- **Biological data:** genomes, metagenomes, metatranscriptomes, RNA-seq, 16S amplicon eDNA (QIIME 2); comparative genomics and pangenome analysis (PPanGGOLiN, MMseqs2, DIAMOND, salmon)
+- **Laboratory:** CRISPR genome editing, high-throughput screening, molecular cloning, microbial strain engineering, antibody-response assays, cell culture, laboratory automation, oceanographic field sampling
 
 
 ## Publications
@@ -134,9 +147,9 @@ University of Colorado Department of Molecular, Cellular, and Developmental Biol
 
 ### Software
 
-- [Barnacle](https://barnacle-py.readthedocs.io/): A Python package for sparse tensor decomposition.
+- [Barnacle](https://barnacle-py.readthedocs.io/): A Python package for sparse tensor decomposition, adopted by researchers in several labs for transcriptomic, metagenomic, and metabolomic data.
 - [barnacle-boilerplate](https://github.com/blasks/barnacle-boilerplate): A quick-start guide to using Barnacle with Jupyter notebooks.
-- [ProPanEx](https://github.com/blasks/pro-pangenome-expression): Pipelines and scripts for analyzing global expression of the _Prochlorococcus_ pangenome.
+- [ProPanEx](https://github.com/blasks/pro-pangenome-expression): Containerized genomics and transcriptomics workflows for analyzing global expression of the _Prochlorococcus_ pangenome.
 
 
 
@@ -163,6 +176,10 @@ Graduate Researcher (2018 – 2024)
 - Jonah Valenti (Oceanography, Biology) | Co-author, flexome manuscript <time> 2022 – 2024 </time>
 - Meena Shanmugam (Microbiology) <time> 2022 – 2023 </time>
 - Dhruvi Joshi (Applied Mathematics, Bioengineering) | Co-author, flexome manuscript <time> 2023 – 2024 </time>
+
+### High School Researcher <location> (Seattle area) </location>
+
+- Science-fair project: CRISPR-Cas12a paper biosensor for cyanotoxin detection <time> 2026 – 2027 </time>
 
 
 
