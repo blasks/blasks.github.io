@@ -12,7 +12,7 @@ github: "https://github.com/blasks"
 \begin{center}
 {\headingfont\huge Stephen Blaskowski}\\[10pt]
 {\large $tagline$}\\[6pt]
-{\normalsize $location$ \quad $\diamond$ \quad \href{mailto:$email$}{$email$} \quad $\diamond$ \quad \href{$github$}{github.com/blasks} \quad $\diamond$ \quad \href{https://blasks.github.io}{blasks.github.io}}
+{\normalsize $location$ \quad $\diamond$ \quad \href{mailto:$email$}{$email$} \quad $\diamond$ \quad \href{https://blasks.github.io}{blasks.github.io}}
 \end{center}
 \vspace{2pt}
 \noindent\color{accent}\rule{\linewidth}{0.8pt}
